@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  teste-postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "root"
+    ports:
+      - "5432:5432"
+    volumes:
+      - /Users/Jamilson Pereira/Documents/Ambiente Desenvolvimento/Docker-Compose
+
+
